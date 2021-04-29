@@ -41,7 +41,7 @@ The data is collected across different countries, and the fund amounts are in di
 
 ## Results
 
-####- Two conclusions that may be drawn about the Outcomes based on Launch Date.
+#### Two conclusions that may be drawn about the Outcomes based on Launch Date.
 
 ![Outcomes Based on Launch Dates](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
 
@@ -54,7 +54,7 @@ Similarly the number of failed campaigns also did not vary as much as the succes
 However, keep in mind that this is across different countries. A summer campaign launched in one country may not have the exact same in another country. The trend may be biased because of more number of data points representing one country.
 
 
-####- Conclusions from the Outcomes based on Goals.
+#### Conclusions from the Outcomes based on Goals.
 
 ![Outcomes Based on Goals](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
 
@@ -67,7 +67,7 @@ For a comparable number of total projects, those with goal amounts between 5000 
 
 
 
-####- Some limitations of this dataset.
+#### Some limitations of this dataset.
 The number of campaigns for plays that have a very high goal amount (above 25,000) is very limited.
 The dataset is spread over many years, and may not be evenly divided across the years. This affects the analysis of outcomes based on dates.
 The above analysis shows that May is the best month to launch a theatre fundraising campaign, but that's an average over all the years. The results may be different for an individiual year.
@@ -75,7 +75,7 @@ The data may be incomplete. For example, only a count of a certain outcome may h
 
 
 
-####- Some other possible tables and/or graphs that we could create.
+#### Some other possible tables and/or graphs that we could create.
 
 1) An analysis of outcomes based on goals could be performed for different countries. 
 
