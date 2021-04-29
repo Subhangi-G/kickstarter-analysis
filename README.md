@@ -14,11 +14,11 @@ We are also trying to reveal if any relationshsip exists between the crowdfundin
 
 ### Analysis of Outcomes Based on Launch Date
 
-A pivot table was created that showed the numbers of successful, failed and canceled crowdfunding campaigns that were launched in each month of the year.\
+A pivot table was created that showed the numbers of successful, failed and canceled crowdfunding campaigns that were launched in each month of the year.
 
-![Outcomes Based on Launch Dates_Analysis](https://user-images.githubusercontent.com/71800628/116598637-b194cf80-a8ec-11eb-82a5-fc0d01063949.png)
+![Outcomes Based on Launch Dates_Analysis](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
 
-The data was distilled for the category of theatre only. A line-chart showing the number of successful, failed, and canceled theatre projects for each month was created.\
+The data was distilled for the category of theatre only. A line-chart showing the number of successful, failed, and canceled theatre projects for each month was created.
 
 ### Analysis of Outcomes Based on Goals
 
@@ -26,7 +26,7 @@ A table was created to show the number of successful, failed, and canceled campa
 The goal amounts were bracketed as less than 1000, greater than 50000, and in between, range brackets of 5000.\
 Percentages of successful, failed and canceled campaigns were then calculated for each range.  
 
-![Outcomes Based on Goals_Analysis](https://user-images.githubusercontent.com/71800628/116600115-8f9c4c80-a8ee-11eb-872f-9412b9fa4306.png)
+![Outcomes-Goals_Analysis](https://user-images.githubusercontent.com/71800628/116613334-29b7c100-a8fe-11eb-8144-6a7b9e07ab5c.png)
 
 A line chart was plotted of the percentages of successful, failed, and canceled against the different range brackets. 
 
@@ -40,7 +40,7 @@ The data is collected across different countries, and the fund amounts are in di
 
 - Two conclusions that may be drawn about the Outcomes based on Launch Date.
 
-![Outcomes Based on Launch Dates] (https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
+![Outcomes Based on Launch Dates](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
 
 1) Out of the 1369 total campaigns for raising funds for theatre, the 111 launched in May were most successful.\
 The best time to launch a campaign for theatre is between Apr. and July. 
@@ -53,7 +53,7 @@ However, keep in mind that this is across different countries. A summer campaign
 
 - Conclusions from the Outcomes based on Goals.
 
-![Outcomes Based on Goals](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
+![Outcomes Based on Goals](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
 
 1) Crowdfunding campaigns for plays were most successful when their goal amounts were less than 5000.\
 For a comparable number of total projects, those with goal amounts between 5000 to 9999, had may be a slightly higher likelyhood of being successful.
@@ -64,8 +64,8 @@ For a comparable number of total projects, those with goal amounts between 5000 
 
 
 - Some limitations of this dataset.
-The number of campaigns for plays that have a very high goal amount (above 25,000) is very limited./
-The dataset is spread over many years, and may not be evenly divided across the years. This affects the analysis of outcomes based on dates./
+The number of campaigns for plays that have a very high goal amount (above 25,000) is very limited.
+The dataset is spread over many years, and may not be evenly divided across the years. This affects the analysis of outcomes based on dates.
 The above analysis shows that May is the best month to launch a theatre fundraising campaign, but that's an average over all the years. The results may be different for an individiual year.
 The data may be incomplete. For example, only a count of a certain outcome may have been taken for some columns, say counting only successful campaigns in a certain year, or counting only cancelled plays from a country, or a goal bracket may have been left out for a region or a category or a year.
 
