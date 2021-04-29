@@ -5,59 +5,76 @@
 
 ### Purpose
 
-To uncover hidden trends between crowdfunding campaign outcomes and their launch dates.\
-To find if there is any relationship between outcomes of crowdfunding campaigns and the goals set for their fund collections
+The purpose of this project is to uncover hidden trends that may contribute towards the success of crowdfunding campaigns accross different countries.\
+Particularly, here we are looking at the outcomes of fundraising for theatre projects, and trying to find if any correlation exists with their launch dates.\
+We are also trying to reveal if any relationshsip exists between the crowdfunding outcomes for plays, and the goals set for their fund collections
 
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-A table was created that showed the numbers of successful, failed and canceled crowdfunding campaigns for every month. This was done by first extracting the years from when the different campaigns and then creating a pivot table.\
-This way the outcome of a campaign could be correlated to the month that it was launched.\
-The data was distilled for the category of theatre only. This was done to see how crowdfunding campaigns to fund theatre projects perfomed when launched in different months because the client wanted to compare with her own campaign of fundraising for her play.\
-To visualize, a line-chart showing the number of successful, failed, and canceled theatre projects for each month was created.
+A pivot table was created that showed the numbers of successful, failed and canceled crowdfunding campaigns that were launched in each month of the year.\
+
+![Outcomes Based on Launch Dates_Analysis](https://user-images.githubusercontent.com/71800628/116598637-b194cf80-a8ec-11eb-82a5-fc0d01063949.png)
+
+The data was distilled for the category of theatre only. A line-chart showing the number of successful, failed, and canceled theatre projects for each month was created.\
 
 ### Analysis of Outcomes Based on Goals
 
-A table was created that showed data for the number of successful, failed, and canceled campaigns for plays within different ranges of goals for funds.\
-The goal amounts were bracketed in the ranges of less than 1000, greater then 50000, and in between range brackets of 5000.\
-Percentage of successful, failed and canceled campaigns were then calculated for each range.  
-A line chart was plotted showing the percentage of successful, failed, and canceled against the different range brackets. This was done to uncover trends, if any, between the funding goals for a campaign and it's success.
+A table was created to show the number of successful, failed, and canceled campaigns of fundraising for plays within different goal ranges.\
+The goal amounts were bracketed as less than 1000, greater than 50000, and in between, range brackets of 5000.\
+Percentages of successful, failed and canceled campaigns were then calculated for each range.  
+
+![Outcomes Based on Goals_Analysis](https://user-images.githubusercontent.com/71800628/116600115-8f9c4c80-a8ee-11eb-872f-9412b9fa4306.png)
+
+A line chart was plotted of the percentages of successful, failed, and canceled against the different range brackets. 
 
 ### Challenges and Difficulties Encountered
-No challenges were ecountered during this analysis. However if the category theatre had contained other subcategories that made a big impact on the launch month, then this first analysis would not have been an accurate representation. Here that doesn't seem to be the case.\
-In the analysis of outcomes based on goals, the total number of projects with goals of $25000 and above decrease substantially. This decreases the trustworthiness of the outcomes for the goal ranges above this amount.
+No challenges were ecountered during this analysis.
+In the analysis of outcomes based on goals, the total number of projects with goals of 25000 and above decrease substantially. This decreases the trustworthiness of the outcomes for the goal ranges above this amount.
+The data is collected across different countries, and the fund amounts are in different currencies. Therefore the outcomes based on goals should be approched with caution keeping in mind that the goal brackets are for absolute amounts for each currencies. 
 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- Two conclusions that may be drawn about the Outcomes based on Launch Date.
+
+![Outcomes Based on Launch Dates] (https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
 
 1) Out of the 1369 total campaigns for raising funds for theatre, the 111 launched in May were most successful.\
-The best time to launch a campaign for theatre is between Apr. and July.
+The best time to launch a campaign for theatre is between Apr. and July. 
 
 2) The number of canceled campaigns were very low and remained almost steady over the months which might imply that their cancellation may not be dependent upon when they were launched.\
 Similarly the number of failed campaigns also did not vary as much as the successful ones, but showed a similar trend to them being slightly elevated from Apr. through August, and in Oct. This could be bacause most campaigns for plays are launched during these months. Or maybe the faliure of theatre campaigns may not be completely dependent on the month of launch.
 
-
-- What can you conclude about the Outcomes based on Goals?
-
-1) Crowdfunding campaigns for plays were most successful when their goal amounts were less than $5000.\
-For a comparable number of total projects, those with goal amounts between $5000 to $9999, had may be slightly higher likelyhood of being successful.
-
-2) Campaigns for goals between $10,000 to $ 25000 also showed similar likelyhood of success and faliure. 
-
-3) The trend seems to that asking above $20000, to fund plays, will likely result in a failed project, except for the range beween $35000-$40000. However this conclusion may not be relaible because the there aren't many projects in the ranges above $20000.
+However, keep in mind that this is across different countries. A summer campaign launched in one country may not have the exact same in another country. The trend may be biased because of more number of data points representing one country.
 
 
-- What are some limitations of this dataset?
+- Conclusions from the Outcomes based on Goals.
 
-1) The number of campaigns for plays that have a very high goal amount (above $25000) is very limited.
+![Outcomes Based on Goals](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
+
+1) Crowdfunding campaigns for plays were most successful when their goal amounts were less than 5000.\
+For a comparable number of total projects, those with goal amounts between 5000 to 9999, had may be a slightly higher likelyhood of being successful.
+
+2) Campaigns for goals between 10,000 to 25,000 also showed similar likelyhood of success and faliure. 
+
+3) The trend seems to that asking above 20,000, to fund plays, will likely result in a failed project, except for the range beween 35000-40000. However this conclusion may not be relaible because the there aren't many projects in the ranges above 20000.
 
 
-- What are some other possible tables and/or graphs that we could create?
+- Some limitations of this dataset.
+The number of campaigns for plays that have a very high goal amount (above 25,000) is very limited./
+The dataset is spread over many years, and may not be evenly divided across the years. This affects the analysis of outcomes based on dates./
+The above analysis shows that May is the best month to launch a theatre fundraising campaign, but that's an average over all the years. The results may be different for an individiual year.
+The data may be incomplete. For example, only a count of a certain outcome may have been taken for some columns, say counting only successful campaigns in a certain year, or counting only cancelled plays from a country, or a goal bracket may have been left out for a region or a category or a year.
 
-1) An analysis of outcomes based on goals could be performed for all projects to study the effect of goals on general on raising funds through crowdfunding.
 
-2) The outcomes of projects by launch dates could be studied separately in different countries.
+
+- Some other possible tables and/or graphs that we could create.
+
+1) An analysis of outcomes based on goals could be performed for different countries. 
+
+2) Line charts showing the outcomes of plays by launch dates from different years could be created.
+
+3) Line charts showing outcomes from separate countries could be created.
