@@ -16,9 +16,10 @@ We are also trying to reveal if any relationshsip exists between the crowdfundin
 
 A pivot table was created that showed the numbers of successful, failed and canceled crowdfunding campaigns that were launched in each month of the year.
 
-![Outcomes Based on Launch Dates_Analysis](https://github.com/Subhangi-G/kickstarter-analysis/blob/main/resources/Theatre_Outcomes_vs_Launch.png)
+![Outcomes Based on Launch Dates_Analysis](https://user-images.githubusercontent.com/71800628/116613660-93d06600-a8fe-11eb-9ea1-8bd1887c40c4.png)
 
 The data was distilled for the category of theatre only. A line-chart showing the number of successful, failed, and canceled theatre projects for each month was created.
+
 
 ### Analysis of Outcomes Based on Goals
 
@@ -26,14 +27,16 @@ A table was created to show the number of successful, failed, and canceled campa
 The goal amounts were bracketed as less than 1000, greater than 50000, and in between, range brackets of 5000.\
 Percentages of successful, failed and canceled campaigns were then calculated for each range.  
 
-![Outcomes-Goals_Analysis](https://user-images.githubusercontent.com/71800628/116613334-29b7c100-a8fe-11eb-8144-6a7b9e07ab5c.png)
+![Outcomes Based on Goals_Analysis](https://user-images.githubusercontent.com/71800628/116613334-29b7c100-a8fe-11eb-8144-6a7b9e07ab5c.png)
 
 A line chart was plotted of the percentages of successful, failed, and canceled against the different range brackets. 
+
 
 ### Challenges and Difficulties Encountered
 No challenges were ecountered during this analysis.
 In the analysis of outcomes based on goals, the total number of projects with goals of 25000 and above decrease substantially. This decreases the trustworthiness of the outcomes for the goal ranges above this amount.
 The data is collected across different countries, and the fund amounts are in different currencies. Therefore the outcomes based on goals should be approched with caution keeping in mind that the goal brackets are for absolute amounts for each currencies. 
+
 
 
 ## Results
@@ -61,6 +64,7 @@ For a comparable number of total projects, those with goal amounts between 5000 
 2) Campaigns for goals between 10,000 to 25,000 also showed similar likelyhood of success and faliure. 
 
 3) The trend seems to that asking above 20,000, to fund plays, will likely result in a failed project, except for the range beween 35000-40000. However this conclusion may not be relaible because the there aren't many projects in the ranges above 20000.
+
 
 
 - Some limitations of this dataset.
